@@ -12,7 +12,7 @@ public class Table {
         header = new String[size + 1];
         data = new String[size][size + 1];
  
-        header[0] = "---";
+        header[0] = "pc-user";
         
         for(int i = 0; i < size; i++){
             header[i+1] = args[i];
